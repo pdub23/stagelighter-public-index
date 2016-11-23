@@ -1,25 +1,107 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     
     <title>College Audition Coaches</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"/>-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+    
+    
     <!-- Custom styles for this template -->
-    <link href="css/styles.css" rel="stylesheet">
+    <!-- <link href="css/styles.css" rel="stylesheet"/> -->
+    <link href="https://cdn.rawgit.com/tddycks/stagelighter-public-index/dcff60b9ded688b1fc62ecba5b48f7f8132dacb9/css/styles.css" rel="stylesheet"/>
+    
     <!-- Google font -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     <meta name="google-site-verification" content="PKGNXBcWPkSutw3MNJu-otCC3uQh2VAccxQQA2g8DeY" />
+        
+        <meta property="fb:app_id" content="528027377223211" />
+        
+        <link rel="canonical" href="http://stagelighter.com" />
+   
+        
+        <!-- Audition Feedback for future Musical Theatre stars -->
+        
+        
+        
+        <!-- <meta name="Description" content="Get personal feedback and advice from Broadway's top casting directors, agents, performers and more." /> -->
+        
+        <meta name="Description" content="Get personal feedback from Broadway stars, agents, casting directors and more. Connect with faculty from the country's top college programs." />
+        <meta name="Keywords" content="audition feedback, theatre audition tips, musical theatre coaching, audition technique, audition tips, theatre coaching, musical theatre audtions, broadway audtions" />
+        <xsl:variable name="metaRobots">
+          <xsl:choose>
+            <xsl:when test="$this_host='dev.stagelighter.com'">
+              <xsl:text>noindex, nofollow</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:text>index, follow</xsl:text>
+            </xsl:otherwise>
+           </xsl:choose>
+        </xsl:variable>
+        <meta name="robots" content="{$metaRobots}" />
+        
+        <link rel="Shortcut Icon" href="/images/stagelighter.ico" />
+       
+       
+ 
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+      
+ 
+  <xsl:if test="$cmscontext='live'">
+<script type="text/javascript">
+  <xsl:variable name="gaAccountNum">
+    <xsl:choose>
+      <xsl:when test="$this_host='dev.stagelighter.com'">
+        <xsl:text>UA-28948602-2</xsl:text>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:text>UA-28948602-1</xsl:text>
+      </xsl:otherwise>
+     </xsl:choose>    
+  </xsl:variable>
+  var ga_account = "<xsl:value-of select="$gaAccountNum" />";
+  var _gaq = _gaq || []; 
+  _gaq.push(['_setAccount', ga_account]);
+  _gaq.push(['_setDomainName', '.stagelighter.com']);
+  _gaq.push(['_trackPageview']);
+   
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+    </xsl:if>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
   </head>
   <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
@@ -32,15 +114,15 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span> 
       </button>
-      <a class="navbar-brand" href="#myPage"><img src="images/bolt.png"></a>
+      <a class="navbar-brand" href="#myPage"><img src="https://raw.githubusercontent.com/tddycks/stagelighter-public-index/master/images/bolt.png"/></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#how">HOW IT WORKS</a></li>
         <li><a href="#coaches">COACHES</a></li>
         <li><a href="#pricing">PRICING</a></li>
-        <li><a href="#">LOGIN</a></li>
-        <li><a href="#">SIGNUP</a></li>
+        <li><a href="/login.html">LOGIN</a></li>
+        <li><a href="/sign-up">SIGNUP</a></li>
       </ul>
     </div>
   </div>
@@ -49,17 +131,17 @@
 
   <!-- HEADER -->
   <div class="container-fluid bg-black text-center">
-    <img src="images/logo.png" class="img-fluid"  alt="Stagelighter Logo">
+    <img src="https://raw.githubusercontent.com/tddycks/stagelighter-public-index/master/images/logo.png" class="img-fluid"  alt="Stagelighter Logo"/>
     <h1>NAIL YOUR COLLEGE AUDITIONS</h1>
-    <img src="images/audition.jpg" class="img-fluid audition" alt="College Auditions">
+    <img src="https://raw.githubusercontent.com/tddycks/stagelighter-public-index/master/images/audition.jpg" class="img-fluid audition" alt="College Auditions"/>
   </div>
 
 
   <!-- HOW IT WORKS -->
   <div id="how" class="container-fluid bg-grey text-center">
-    <h1 class="text-header"><strong>DIRECT ACCESS TO THE PEOPLE WHO MATTER</strong></h1><br>
-    <h4>Get personal feedback from college professors at over 30 of the country’s top programs in theatre, musical theatre, opera and dance. How? It’s easy:</h4> 
-    <br><br>
+    <h1 class="text-header"><strong>DIRECT ACCESS TO THE PEOPLE WHO MATTER</strong></h1><br/>
+    <h4>Get personal feedback from college professors at over 30 of the country's top programs in theatre, musical theatre, opera and dance. How? It's easy:</h4> 
+    <br/><br/>
 
 
     <div class="row">
@@ -81,7 +163,7 @@
           <P>Receive detailed personal advice within two weeks and start nailing your auditions.</P>
       </div>
     </div>
-    <a href="#" class="btn btn-info btn-lg signup-button">Sign Up for Free</a>
+    <a href="/sign-up" class="btn btn-info btn-lg signup-button">Sign Up for Free</a>
   </div>
 
 
@@ -90,19 +172,19 @@
     <div class="row">
 
        <div class="col-sm-1">
-        <img src="images/maya-s.jpg" class="img-fluid headshot" alt="Maya Jacobson Headshot">
+        <img src="https://raw.githubusercontent.com/tddycks/stagelighter-public-index/master/images/maya-s.jpg" class="img-fluid headshot" alt="Maya Jacobson Headshot"/>
        </div>
 
         <div class="col-sm-5 grey-text"> 
-          <p>"I used this before my college auditions and it was a HUGE help! I got a lot of helpful feedback on my song and monologue and felt very comfortable going into the auditions. I was accepted into NYU Tisch, Boston Conservatory of Music, Syracuse University, University of the Arts and Penn State University. Thank you for the incredible help during this stressful process!" <br><strong>MAYA JACOBSON / BOSTON CONSERVATORY OF MUSIC</strong></p>
+          <p>"I used this before my college auditions and it was a HUGE help! I got a lot of helpful feedback on my song and monologue and felt very comfortable going into the auditions. I was accepted into NYU Tisch, Boston Conservatory of Music, Syracuse University, University of the Arts and Penn State University. Thank you for the incredible help during this stressful process!" <br/><strong>MAYA JACOBSON / BOSTON CONSERVATORY OF MUSIC</strong></p>
         </div>
 
         <div class="col-sm-1">
-        <img src="images/kdm-s.jpg" class="img-fluid headshot" alt="Kyle Dean Massey Headshot">
+        <img src="https://raw.githubusercontent.com/tddycks/stagelighter-public-index/master/images/kdm-s.jpg" class="img-fluid headshot" alt="Kyle Dean Massey Headshot"/>
        </div>
 
         <div class="col-sm-5 grey-text">
-          <p>"The price it what makes it really stand out. For a lot of the companies that I work for in New York, where people come to the city, stay in New York and pay for these classes, you end up paying a TON of money for that. And usually you are in a big class with a bunch of people. In this case, you pay a very small fraction of that and it's very personal, direct, well thought out advice."<br><strong>KYLE DEAN MASSEY / BROADWAY PERFORMER</strong><br><a href="http://www.broadwayworld.com/article/BWW-Interview-PIPPINs-Kyle-Dean-Massey-Talks-the-Benefits-of-Broadway-Coaching-Through-Stagelightercom-20140502" target="_blank">READ FULL BROADWAYWORLD.COM INTERVIEW</a></p>
+          <p>"The price it what makes it really stand out. For a lot of the companies that I work for in New York, where people come to the city, stay in New York and pay for these classes, you end up paying a TON of money for that. And usually you are in a big class with a bunch of people. In this case, you pay a very small fraction of that and it's very personal, direct, well thought out advice."<br/><strong>KYLE DEAN MASSEY / BROADWAY PERFORMER</strong><br/><a href="http://www.broadwayworld.com/article/BWW-Interview-PIPPINs-Kyle-Dean-Massey-Talks-the-Benefits-of-Broadway-Coaching-Through-Stagelightercom-20140502" target="_blank">READ FULL BROADWAYWORLD.COM INTERVIEW</a></p>
         </div>
 
      </div>
@@ -111,14 +193,14 @@
 
   <!-- A NEW WAY TO LEARN -->
   <div class="container-fluid bg-lightgrey text-center">
-    <img src="images/colleges.jpg" class="img" alt="College logos">
+    <img src="https://raw.githubusercontent.com/tddycks/stagelighter-public-index/master/images/colleges.jpg" class="img" alt="College logos"/>
   </div>
   
 
   <div id="coaches" class="container-fluid bg-white2 text-center">
-    <h1 class="text-header"><strong>A NEW WAY TO LEARN</strong></h1><br>
+    <h1 class="text-header"><strong>A NEW WAY TO LEARN</strong></h1><br/>
     <h4>Why pay coaches who tell you what they think professors want to see. Get advice directly from the source in a friendly, affordable and supportive environment.</h4> 
-    <br><br>
+    <br/><br/>
   </div>
 
 
@@ -129,7 +211,7 @@
 
       <div class="col-sm-3">
         <div class="thumbnail">
-          <img src="images/mark-madama.jpg" alt="Mark Madama headshot">
+          <img src="https://raw.githubusercontent.com/tddycks/stagelighter-public-index/master/images/mark-madama.jpg" alt="Mark Madama headshot"/>
           <p><strong>Mark Madama</strong></p>
           <p class="grey-text">UNIVERSITY OF MICHIGAN</p>
           <p>Faculty at UofM's Musical Theatre Department. His graduates perform leading roles on Broadway and on National Tours.</p>
@@ -138,16 +220,16 @@
 
       <div class="col-sm-3">
         <div class="thumbnail">
-          <img src="images/cindy-gold.jpg" alt="Cindy Gold headshot">
+          <img src="https://raw.githubusercontent.com/tddycks/stagelighter-public-index/master/images/cindy-gold.jpg" alt="Cindy Gold headshot"/>
           <p><strong>Cindy Gold</strong></p>
           <p class="grey-text">NORTHWESTERN UNIVERSITY</p>
-          <p>A professional actress and teacher, Cindy is head of the acting program at Northwestern University’s Department of Theatre.</p>
+          <p>A professional actress and teacher, Cindy is head of the acting program at Northwestern University's Department of Theatre.</p>
         </div>
       </div>
 
       <div class="col-sm-3">
         <div class="thumbnail">
-          <img src="images/gary-kline.jpg" alt="Gary Kline headshot">
+          <img src="https://raw.githubusercontent.com/tddycks/stagelighter-public-index/master/images/gary-kline.jpg" alt="Gary Kline headshot"/>
           <p><strong>Gary Kline</strong></p>
           <p class="grey-text">CARNEGIE MELLON UNIVERSITY</p>
           <p>Assistant Head of Acting/Musical Theater at CMU's School of Drama. Has taught Christian Borle, Renee Goldsberry, Megan Hilty.</p>
@@ -156,23 +238,25 @@
 
       <div class="col-sm-3">
         <div class="thumbnail">
-          <img src="images/kathleen-mcnenny.jpg" alt="Kathleen McNenny headshot">
+          <img src="https://raw.githubusercontent.com/tddycks/stagelighter-public-index/master/images/kathleen-mcnenny.jpg" alt="Kathleen McNenny headshot"/>
           <p><strong>Kathleen McNenny</strong></p>
           <p class="grey-text">THE JUILLIARD SCHOOL</p>
           <p>A professional actress, teacher and coach, Kathleen is faculty at Juilliard, Rutgers, Cap 21, and the Tom Todoroff Conservatory.</p>
         </div>
       </div>
     </div>
-    <h3><a href="#">Browse all coaches</a></h3>
+    <h3><a href="/coaches">Browse all coaches</a></h3>
   </div>
 
 
   <!-- PRICING -->
   <div id="pricing" class="container-fluid bg-white text-center">
-    <h1 class="text-header"><strong>HOW MUCH DOES IT COST?</strong></h1><br>
+    <h1 class="text-header"><strong>HOW MUCH DOES IT COST?</strong></h1><br/>
     <span class="glyphicon glyphicon-heart slideanim"></span>
-    <h1>$20</h1>
-    <h4>That’s it. No monthly membership fees, no hidden costs.<br>Applying to college is expensive enough. You shouldn’t have to break the bank to put your best foot forward in the audition room.<br>And for a limited time, get a $5 credit for every friend you refer.</h4> 
+    <h1>$19</h1>
+    <h4>For a limited time.<br/> No monthly membership fees, no hidden costs.<br/>Applying to college is expensive enough. You shouldn't have to break the bank to put your best foot forward in the audition room.
+    <br/></h4>
+     
   </div>
 
 
@@ -191,13 +275,13 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-    <h4>"Stagelighter is the premiere online resource which lets actors from around the world get personal feedback from leading professionals."<br><span style="font-style:normal;">BROADWAYWORLD.COM</span></h4>
+    <h4>"Stagelighter is the premiere online resource which lets actors from around the world get personal feedback from leading professionals."<br/><span style="font-style:normal;">BROADWAYWORLD.COM</span></h4>
     </div>
     <div class="item">
-      <h4>"Thanks to Stagelighter, times are changing for the next generation of talented performers."<br><span style="font-style:normal;">BACKSTAGE.COM</span></h4>
+      <h4>"Thanks to Stagelighter, times are changing for the next generation of talented performers."<br/><span style="font-style:normal;">BACKSTAGE.COM</span></h4>
     </div>
     <div class="item">
-      <h4>"New online resource for performers offers support from award-winning theatre professionals."<br><span style="font-style:normal;">PLAYBILL.COM</span></h4>
+      <h4>"New online resource for performers offers support from award-winning theatre professionals."<br/><span style="font-style:normal;">PLAYBILL.COM</span></h4>
     </div>
   </div>
 
@@ -211,10 +295,11 @@
           
 
 
-  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="js/bootstrap.min.js"></script>
-
+  <!-- <script src="js/bootstrap.min.js"></script> -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  
 
   <!-- FOOTER -->
 
@@ -222,7 +307,7 @@
     <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
     </a>
-    <p>Stagelighter ©2016</p>
+    <p>Stagelighter &#169; <xsl:value-of select="$CMS_DATE_YEAR" /></p>
   </footer>
 
 
@@ -260,7 +345,7 @@
     var pos = $(this).offset().top;
 
     var winTop = $(window).scrollTop();
-    if (pos < winTop + 600) {
+    if (pos &lt; winTop + 600) {
       $(this).addClass("slide");
     }
   });
@@ -271,4 +356,6 @@
 
   </body>
 
-  </html>
+</html>
+  
+  
